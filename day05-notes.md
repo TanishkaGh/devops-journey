@@ -32,3 +32,4 @@ scp -i ~/.ssh/devops-key.pem ~/.ssh/devops-key.pem ec2-user@BASTION_IP:~/.ssh/
 ssh -i ~/.ssh/devops-key.pem ec2-user@BASTION_IP
 ssh -i /tmp/devops-key.pem ec2-user@PRIVATE_IP
 ```
+
