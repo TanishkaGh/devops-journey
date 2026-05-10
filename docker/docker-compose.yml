@@ -1,0 +1,14 @@
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=development
+  nginx:
+    image: nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - web
+
