@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-app-config
+data:
+  ENVIRONMENT: "development"
+  APP_NAME: "my-flask-app"
